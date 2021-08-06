@@ -9,6 +9,9 @@ repositories {
     mavenCentral()
 }
 
+val kotestVersion = "4.6.1"
+val mockkVersion = "1.12.0"
+
 dependencies {
     implementation(kotlin("stdlib"))
 
@@ -18,4 +21,13 @@ dependencies {
     // mock & kotest
     testImplementation("io.mockk:mockk:1.10.6")
     testImplementation("io.kotest:kotest-assertions-core:4.4.3")
+    testImplementation("io.kotest:kotest-runner-junit5:$kotestVersion")
+    testImplementation("io.kotest:kotest-assertions-core:$kotestVersion")
+    testImplementation("io.kotest:kotest-property:$kotestVersion")
+    testImplementation("io.mockk:mockk:$mockkVersion")
+    testImplementation("org.junit.jupiter:junit-jupiter")
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
