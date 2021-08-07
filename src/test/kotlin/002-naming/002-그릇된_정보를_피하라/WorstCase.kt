@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test
 
 class WorstCase {
 
+    /**
+     * 변수명에 그릇된 정보를 피해라.
+     */
     @Test
     @DisplayName("실제 컨테이너가 List 라도 변수명에 list 를 쓰지 않는 것이 좋다.")
     fun `그릇된 정보는 피하라`() {
