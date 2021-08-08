@@ -21,7 +21,7 @@
 * 07-자신의 기억력을 자랑하지 마라
 * 08-클래스 이름
   * 클래스 이름에 동사는 사용하지 않느다. 명사 혹은 명사구를 사용할 수 있도록 한다.
-* [09-메소드 이름](#)
+* [09-메소드 이름](https://github.com/pasudo123/mango-banana-clean-code/blob/master/src/test/kotlin/002-naming/009-%EB%A9%94%EC%86%8C%EB%93%9C_%EC%9D%B4%EB%A6%84/BestCase.kt)
   * 메소드 이름에 동사나 동사구가 적합하다.
   * 접근자, 변경자, 조건자는 javabean 표준에 따라서 get, set, is 를 붙인다.
   * 생성자 오버로딩을 수행할 때는 팩토리 메소드 패턴을 이용한다.
@@ -30,6 +30,6 @@
 * 11-한 개념에 한 단어를 사용하라
   * 똑같은 메소드를 클래스마다 `fetch`, `retrieve`, `get` 으로 제각각 부르면 혼란스럽다.
     * 일관성 있는 어휘를 사용하도록 한다.
-* [12-말장난을 하지마라]()
+* [12-말장난을 하지마라](https://github.com/pasudo123/mango-banana-clean-code/blob/master/src/test/kotlin/002-naming/012-%EB%A7%90%EC%9E%A5%EB%82%9C%EC%9D%84_%ED%95%98%EC%A7%80%EB%A7%88%EB%9D%BC/BestCase.kt)
   * 11과 12는 맥락을 같이한다. 일관성 있는 어휘를 사용하도록 하지만 메소드 시그니처를 판단해서 알맞게 표현을 바꿀 수 있도록 해야한다.
   
