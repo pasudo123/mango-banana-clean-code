@@ -50,10 +50,10 @@
   * 스위치문은 함수를 작게 만들기 어렵다.
 * 05-서술적인 이름을 사용하라
   * `이름을 정하느라 시간을 들여도 좋다.` 이런저런 이름을 넣어보고, 코드를 읽어보면 더 좋다.
-* 06-함수 인수
+* [06-함수 인수](https://github.com/pasudo123/mango-banana-clean-code/blob/master/src/test/kotlin/003-function/006-%ED%95%A8%EC%88%98_%EC%9D%B8%EC%88%98)
   * 함수에서 가장 이상적인 인수의 개수는 0개 (무항이다.)
   * 그 다음은 1항이고, 그 다음은 2항이고 3개부터는 피하는 것이 좋다.
-* 07-부수효과를 일으키지 마라
+* [07-부수효과를 일으키지 마라](https://github.com/pasudo123/mango-banana-clean-code/blob/master/src/test/kotlin/003-function/007-%EB%B6%80%EC%88%98%ED%9A%A8%EA%B3%BC%EB%A5%BC_%EC%9D%BC%EC%9C%BC%ED%82%A4%EC%A7%80_%EB%A7%88%EB%9D%BC)
   * 함수에서 한가지 일을 하겠다고 하고, 다른 일을 하는 우를 범하지 마라.
-* 08-명령과 조회를 분리하라
+* [08-명령과 조회를 분리하라](https://github.com/pasudo123/mango-banana-clean-code/tree/master/src/test/kotlin/003-function/008-%EB%AA%85%EB%A0%B9%EA%B3%BC_%EC%A1%B0%ED%9A%8C%EB%A5%BC_%EB%B6%84%EB%A6%AC%ED%95%98%EB%9D%BC)
   * 오브젝트 책에서도 본 내용이다. : 명령은 명령만 수행하고 조회는 조회만 수행하여야 한다. 섞어쓰면 안된다.
