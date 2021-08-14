@@ -71,13 +71,13 @@
 
 ### 5장 형식 맞추기
 
-* [상수를 저차원 함수 안에서 쓰지 말자](https://github.com/pasudo123/mango-banana-clean-code/tree/master/src/test/kotlin/005-structure/001-%EC%83%81%EC%88%98%EB%A5%BC_%EC%9D%B8%EC%9E%90%EB%A1%9C_%EB%B0%9B%EC%9D%84_%EC%88%98_%EC%9E%88%EB%8F%84%EB%A1%9D%ED%95%B4%EB%9D%BC)
+* [01-상수를 저차원 함수 안에서 쓰지 말자](https://github.com/pasudo123/mango-banana-clean-code/tree/master/src/test/kotlin/005-structure/001-%EC%83%81%EC%88%98%EB%A5%BC_%EC%9D%B8%EC%9E%90%EB%A1%9C_%EB%B0%9B%EC%9D%84_%EC%88%98_%EC%9E%88%EB%8F%84%EB%A1%9D%ED%95%B4%EB%9D%BC)
   * private method 안에 넣도록 하지말고 인자로 받을 수 있도록 하자
   * 상수를 마땅히 알아야할 함수에서 실제로 사용하는 함수로 상수를 넘겨주는 방법이 좋다.
 
 ### 6장 객체와 자료구조
 
-* 01-자료추상화
+* [01-자료추상화](https://github.com/pasudo123/mango-banana-clean-code/tree/master/src/test/kotlin/006-object/003-%EC%9E%90%EB%A3%8C%EC%B6%94%EC%83%81%ED%99%94)
   * 객체와 자료구조는 엄현하게 다르다.
     * 객체 : 필드를 외부에 감춘 상태로 외부에는 추상화된 별도의 인터페이스만 제공한다.
     * 자료구조 : 외부에 자료를 공개적으로 노출시켜놓았다.
