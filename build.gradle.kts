@@ -26,6 +26,13 @@ dependencies {
     testImplementation("io.kotest:kotest-property:$kotestVersion")
     testImplementation("io.mockk:mockk:$mockkVersion")
     testImplementation("org.junit.jupiter:junit-jupiter")
+
+    // apache log4j2
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    testImplementation("org.apache.logging.log4j:log4j-core:2.14.1")
+    testImplementation("org.apache.logging.log4j:log4j-api:2.14.1")
+
+
 }
 
 tasks.withType<Test> {
