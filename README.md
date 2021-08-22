@@ -143,3 +143,9 @@ checked exception 과 unchecked exception 의 차이를 구분할 수 있어야 
     * 클래스와 메소드 수를 최소로 줄인다.
 
 ### 13장 동시성
+
+### 14장 점진적인 개선
+
+### 15장 Junit 들여다보기
+
+### 16장 SerialDate 리팩토링
